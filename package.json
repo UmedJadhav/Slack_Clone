@@ -1,0 +1,28 @@
+{
+  "name": "Slack_Clone",
+  "version": "1.0.0",
+  "description": "A socket.io based clone of Slack to understand socket.io",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon chat.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmedJadhav/Slack_Clone.git"
+  },
+  "keywords": [],
+  "author": "Umed Jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UmedJadhav/Slack_Clone/issues"
+  },
+  "homepage": "https://github.com/UmedJadhav/Slack_Clone#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
